@@ -118,7 +118,7 @@ form input[type="reset"]{
 form input[type="reset"]:hover{
     border: 3px solid var(--blue);;
 }
-.button{
+ form button{
     margin: .5em;
     border: 1px solid var(--red) ;
     background:var(--backred) ;
@@ -131,7 +131,7 @@ form input[type="reset"]:hover{
     display: inline;
 
 }
-.button:hover{
+form button:hover{
     border: 3px solid var(--blue);
 }
 
