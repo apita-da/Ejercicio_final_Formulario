@@ -10,6 +10,12 @@
     border: 0;
     box-sizing: border-box;
 }
+form, input, label, textarea, option, select{
+    font-size: inherit;
+    font-family: inherit;
+    background: transparent;
+    color:inherit;
+}
 body{
 	font-weight:bold;
 
@@ -46,8 +52,27 @@ form input[type= "text"]{
     border-left: 1px solid gray;
 }
 form input[type="radio"]{
-    margin-left: 0.2em;    
+    margin-left: .4em;
 }
 form input[name="tiponc"]{
-    margin-left: 1.8em;
+    margin-left: 2.8em;  
+
 }
+form select[name="origen1"]{
+    margin: 2em 2em 0 0;
+}
+form select[name="origen2"]{
+    margin-top: 2em;
+}
+form input[name="tipock"]{
+    margin: 0.5em;
+}
+form input[type="range"]{
+    margin: .8em 0.5em;
+}
+form input[type="date"]{
+    margin: 0.3em 0.6em;
+}
+
+
+
