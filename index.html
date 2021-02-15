@@ -14,7 +14,7 @@
 </head>
 <body>
     <h1>Formulario Información Alta Telefónica</h1>
-    <form   method="POST" action="./procesarFormulario.php" name="telefonica">
+    <form   method="POST" action="./procesarFormulario.php">
         <fieldset>
             <legend>Datos Personales</legend>
             <div>
@@ -60,7 +60,7 @@
                     <option value="vodafone">Vodafone</option>
                     <option value="yoigo">Yoigo</option>
                     <option value="ninguna">No tengo ninguna compañía</option>
-                </select>
+                </select>        
                 En caso de portabilidad, elija la nueva compañía:
                 <select name="porta" required>
                     <option value="movistar">Movistar</option>
@@ -129,7 +129,7 @@
             <input type="reset" value="Borrar Datos" />
         </div>
         <div>
-            <button id="valoracionBtn" class="button" >Mostrar Valoración</button>
+            <button id="valoracionBtn" class="button">Mostrar Valoración</button>
             <button id="cuentaBtn" class="button">Mostrar Cuenta</button>
             <button id="dateBtn" class="button"> Mostrar Dia de la Semana</button>
         </div>

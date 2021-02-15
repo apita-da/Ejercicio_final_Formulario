@@ -68,12 +68,7 @@ form input[type="radio"]{
     display: inline;
 }
 
-form select[name="compania"]{
-    margin: 2em 2em 0 0;
-    display: inline;
-
-}
-form select[name="porta"]{
+form select{
     margin: 2em 2em 0 0;
     display: inline;
 }
@@ -139,6 +134,23 @@ form input[type="reset"]:hover{
 .button:hover{
     border: 3px solid var(--blue);
 }
-/* @media(480px && 960px) */
+
+@media screen and (max-width:1024px){
+    body{
+        font-size : 80%;
+    }
+}
+@media screen and  (max-width:960px){
+    body{
+        font-size : 80%;
+    }
+
+}
+@media screen and  (max-width:480px){
+    form select{
+    display: block;
+    }
+
+}
 
 
