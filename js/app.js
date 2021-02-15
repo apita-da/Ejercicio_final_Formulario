@@ -17,12 +17,11 @@ valoracionBtn.addEventListener('click',function(){
 })
 
 cuentaBtn.addEventListener('click', function(){
-	if(cuentaIn.value === ''){
+	if(cuentaIn === ''){
 		alert(`Rellene los campos indicados`)
 	}else{
-		alert(`le informamos de que el numero de cuenta es: ${cuentaIn.value}`)
-	}
-})
+	alert(`le informamos de que el numero de cuenta es: ${paisIn.value}-${controlIn.value}-${entidadIn.value}-${sucursalIn.value}-${dcIn.value}-${cuentaIn.value}`)
+}})
 
 
 dateBtn.addEventListener('click', function(){
