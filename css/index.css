@@ -1,0 +1,53 @@
+:root{
+    --azul:aqua;
+    --amarillo: yellow;
+    --rojo: red;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+	font-weight:bold;
+
+}
+
+form fieldset{
+    background-color: var(--azul);
+    margin: 0.5em;
+    padding: 0 0 0.5em 0.5em;
+	border-radius:0.2em;
+
+}
+form legend{
+    background-color: var(--rojo);
+    margin: 0.5em;
+	border-radius:0.2em;
+    color: whitesmoke;
+    font-weight: 100;
+
+
+}
+form label{
+    width:100%;
+	font-weight:bold;
+    margin: 0.5em;
+    
+
+}
+form input[type= "text"]{
+    background-color: var(--amarillo);
+    padding: .1em;
+	border-radius:0.2em;
+    border-top: 1px solid grey;
+    border-left: 1px solid gray;
+}
+form input[type="radio"]{
+    margin-left: 0.2em;    
+}
+form input[name="tiponc"]{
+    margin-left: 1.8em;
+}

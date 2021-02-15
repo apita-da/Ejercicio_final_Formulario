@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <h1>Formulario Información Alta Telefónica</h1>
+    <form action="#" name="telefonica">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <div>
+            <label for="nombre">Nombre: </label>
+            <input type="text" name="nombre" maxlength="30" />
+            </div>
+            <div>
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" name="apellidos" maxlength="60" />
+            </div>
+            <div>
+            <label for="direccion">Dirección:  </label>
+            <input type="text" name="direccion" maxlength="60" />
+            </div>
+            <div>
+            <label for="cpostal">Código Postal: </label>
+            <input type="text" name="cpostal"pattern="[0-9]{5}" />
+            </div>  
+            <div>
+            <label for="localidad">Localidad: </label>
+            <input type="text" name="localidad" /><br/>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Tipo de Contratación</legend>
+            <div class="radio">
+            <input type="radio" name="tipoc" value="nuevo" checked="checked">Nueva Contratación 
+            <input type="radio" name="tiponc" value="porta">Portabilidad
+            <input type="radio" name="tiponc" value="cambio">Cambio de Contrato
+            </div>
+            <div>
+            Elija la compañía actual:
+            <select name="origen">
+                <option value="movistar">Movistar</option>
+                <option value="orange">Orange</option>
+                <option value="vodafone">Vodafone</option>
+                <option value="yoigo">Yoigo</option>
+                <option value="ninguna">No tengo ninguna compañía</option>
+            </select>
+            En caso de portabilidad, elija la nueva compañía:
+            <select name="origen">
+                <option value="movistar">Movistar</option>
+                <option value="orange">Orange</option>
+                <option value="vodafone">Vodafone</option>
+                <option value="yoigo">Yoigo</option>
+            </select>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Datos Bancarios</legend>
+            <div>
+            <label for="pais">País:</label>
+            <input type="text" name="pais" value="ES" readonly="readonly" /> (sólo válido ES)
+            </div>
+            <div>
+            <label for="control">Control IBAN: </label>
+            <input type="text" name="ciban" placeholder="XX" pattern="[0-9]{2}" /> (dos dígitos)
+            </div>
+            <div>
+            <label for="entidad">Entidad: </label>
+            <input type="text" name="enti" placeholder="XXXX" pattern="[0-9]{4}" /> (cuatro dígitos)
+            </div>
+            <div>
+            <label for="sucursal">Sucursal: </label>
+            <input type="text" name="suc" placeholder="XXXX" pattern="[0-9]{4}" /> (cuatro dígitos)
+            </div>
+            <div>
+            <label for="dc">DC: </label>
+            <input type="text" name="dc" placeholder="XX" pattern="[0-9]{2}" /> (dos dígitos)
+            </div>
+            <div>
+            <label for="cuenta">Cuenta: </label>
+            <input type="text" name="cuenta" placeholder="XXXXXXXXXX" pattern="[0-9]{10}" /> (diez dígitos)
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Datos Estadisticos ¿Cómo nos conoció?</legend>
+            <div>
+            <input type="checkbox" name="tipoc" value="TV">A través de la TV 
+            <input type="checkbox" name="tipoc" value="radio">A través de la radio
+            <input type="checkbox" name="tipoc" value="Internet">A través de la Internet 
+            <input type="checkbox" name="tipoc" value="Otros">Otros <br/>
+            </div>
+            <div>
+            <input type="range"    name="valor" value="Valoracion" min="1" max="4"> Valoración [1-4]
+            </div>
+            <div>
+            Fecha de Encuesta: <input type="date" name="fecha" value="2019-01-01">
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar Datos" />
+            <input type="reset" value="Borrar Datos" />
+        </div>
+        <div>
+            <input type="submit" value="Mostrar Valoración" />
+            <input type="submit" value="Mostrar Cuenta" />
+            <input type="submit" value="Mostrar Dia de la Semana" />
+        </div>
+
+    </form>
+    
+</body>
+</html>
