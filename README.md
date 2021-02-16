@@ -55,7 +55,7 @@ Si quieres colaborar hazte un git clone y a jugar!
 * [JavaScript]
 * [scss]
 * [Html.5]
-***
+
 ## Autora ✒️
 ***
 Amalia Pita da Veiga
@@ -64,7 +64,7 @@ Amalia Pita da Veiga
 ## Licencia 📄
 
 Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
+***
 ## Agradecimientos 🎁
 ***
  * BeJob para Woman4it por esta oprtunidad tan increible 📢
