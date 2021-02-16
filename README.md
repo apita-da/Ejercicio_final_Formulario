@@ -67,6 +67,6 @@ Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.
 
 ## Agradecimientos 🎁
 ***
- [BeJob para Woman4it por esta oprtunidad tan increible 📢]
- [A nuentro profesor Eduardo Fierro por su manera de hacer fácil lo dificil😊]
- [y a mis compañeras.☕]
+ * BeJob para Woman4it por esta oprtunidad tan increible 📢
+ * A nuentro profesor Eduardo Fierro por su manera de hacer fácil lo dificil😊
+ * A mis compañeras.☕
