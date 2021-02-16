@@ -2,12 +2,14 @@
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Herramientas usadas](#herramientas_usadas)
-3. [Instalaion](#instalacion)
+3. [Instalacion](#instalacion)
 4. [Colaboracion](#colaboracion)
 5. [Tecnologia](#Tecnologia)
 6. [Autora](#Autora)
-7. [Agradeciemientos](#Agradecimietos)
-### General Info
+7. [Linencia](#Licencia)
+8. [Agradeciemientos](#Agradecimietos)
+
+### General Info 📋
 ***
 Práctica final del curso de Desarrolladora de Web Junior en BeJob para Woman4it.
 
@@ -24,16 +26,17 @@ Aparte de un botón para poder enviar el formulario, y otro para poder resetear 
 -El botón “Mostrar Valoración” indicará en pantalla el valor que el usuario ha seleccionado en el elemento rango.
 -El botón “Mostrar Cuenta” indicará en pantalla la cuenta bancaria introducida por el usuario.ento rango.
 -El botón “Mostrar Día Semana” indicará qué día de la semana (Lunes a Domingo) corresponde la fecha introducida.
-### Screenshot
-***
-![Image text](./Ejercicio_final_Formulario/screenshotform.png)
 
-### Herramientas usadas
+### Screenshot 📷
 ***
-*-- VisualStudio
-*-- Prepros
+![Image text](https://github.com/apita-da/Ejercicio_final_Formulario/blob/master/screenshotform.png)
 
-## Instalatcion
+### Herramientas usadas 🛠️
+***
+* [VisualStudio]
+* [Prepros]
+
+## Instalacion 🚀
 ***
 Para descargarlo sigue los sifuientes pasos
 ```
@@ -43,23 +46,27 @@ $ abre tu navegador
 ```
 Si usas vs con la extension "open-in-browser" puedes abrir el archivo html con el comando open-in-browser
 
-## Colaboracion
+## Colaboracion 🏈
 ***
 Si quieres colaborar hazte un git clone y a jugar!
 
-## Tecnologias
+## Tecnologias :pencil2: 📐
 ***
-*--JavaScrip
-*--scss
-*--Html.5
+* [JavaScript]
+* [scss]
+* [Html.5]
 ***
-## Autora
+## Autora ✒️
 ***
 Amalia Pita da Veiga
 -linkedin: www.linkedin.com/in/amalia-pita-da-veiga-hurtado
 
-## Agradecimientos
+## Licencia 📄
+
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+## Agradecimientos 🎁
 ***
- BeJob para Woman4it por esta oprtunidad tan increible
- A nuentro profesor Eduardo Fierro por su manera de hacer fácil lo dificil
- y a mis compañeras.
+ BeJob para Woman4it por esta oprtunidad tan increible 📢
+ A nuentro profesor Eduardo Fierro por su manera de hacer fácil lo dificil😊
+ y a mis compañeras.☕
