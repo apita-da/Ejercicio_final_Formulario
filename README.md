@@ -62,9 +62,9 @@ Amalia Pita da Veiga
 -linkedin: www.linkedin.com/in/amalia-pita-da-veiga-hurtado
 
 ## Licencia 📄
-
-Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para detalles
 ***
+Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
 ## Agradecimientos 🎁
 ***
  * BeJob para Woman4it por esta oprtunidad tan increible 📢
