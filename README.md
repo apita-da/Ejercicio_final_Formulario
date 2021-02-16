@@ -1,6 +1,4 @@
 # Ejercicio_Formulario
-
- 
 ## Table of Contents
 1. [General Info](#general-info)
 2. [Herramientas usadas](#herramientas_usadas)
@@ -10,6 +8,7 @@
 6. [Autora](#Autora)
 7. [Agradeciemientos](#Agradecimietos)
 ### General Info
+***
 Práctica final del curso de Desarrolladora de Web Junior en BeJob para Woman4it.
 
 Por un lado, se quiere introducir información relativa a la persona, como son su nombre (con una longitud máxima de 30 caracteres), apellidos (con una longitud máxima de 60 caracteres), dirección (con una longitud de 60), código postal (que será un numérico de tamaño cinco) y la localidad.
@@ -26,11 +25,13 @@ Aparte de un botón para poder enviar el formulario, y otro para poder resetear 
 -El botón “Mostrar Cuenta” indicará en pantalla la cuenta bancaria introducida por el usuario.ento rango.
 -El botón “Mostrar Día Semana” indicará qué día de la semana (Lunes a Domingo) corresponde la fecha introducida.
 ### Screenshot
+***
 ![Image text](./Ejercicio_final_Formulario/screenshotform.png)
 
 ### Herramientas usadas
--- VisualStudio
--- Prepros
+***
+*-- VisualStudio
+*-- Prepros
 
 ## Instalatcion
 ***
@@ -43,16 +44,22 @@ $ abre tu navegador
 Si usas vs con la extension "open-in-browser" puedes abrir el archivo html con el comando open-in-browser
 
 ## Colaboracion
-
+***
 Si quieres colaborar hazte un git clone y a jugar!
 
 ## Tecnologias
-
--- JavaScrip
--- scss
--- Html.5
-
+***
+*--JavaScrip
+*--scss
+*--Html.5
+***
 ## Autora
-
+***
 Amalia Pita da Veiga
 -linkedin: www.linkedin.com/in/amalia-pita-da-veiga-hurtado
+
+## Agradecimientos
+***
+ BeJob para Woman4it por esta oprtunidad tan increible
+ A nuentro profesor Eduardo Fierro por su manera de hacer fácil lo dificil
+ y a mis compañeras.
